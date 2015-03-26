@@ -6,6 +6,8 @@
 
 # waterline-orientdb
 
+[![Join the chat at https://gitter.im/appscot/sails-orientdb](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/appscot/sails-orientdb?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Waterline adapter for OrientDB. [Waterline](https://github.com/balderdashy/waterline) is an adapter-based ORM for Node.js with support for mysql, mongo, postgres, redis, orientdb and more.
 
 > **Warning**
