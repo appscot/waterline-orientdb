@@ -72,6 +72,7 @@ describe('Config tests', function() {
       });
       
       it('should have max equal 10', function (done) {
+        this.timeout(25000);  // this takes more than 6000ms on travis
         self.waterline.teardown(function (err) {
           if (err) {  return done(err); }
 
