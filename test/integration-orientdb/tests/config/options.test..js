@@ -71,7 +71,7 @@ describe('Config tests', function() {
         });
       });
       
-      it('should have max equal 10', function (done) {
+      it('should have max equal 2', function (done) {
         this.timeout(25000);  // this takes more than 6000ms on travis
         self.waterline.teardown(function (err) {
           if (err) {  return done(err); }
@@ -85,7 +85,7 @@ describe('Config tests', function() {
           CREATE_TEST_WATERLINE(self, newConfig, fixtures, function (err) {
             if (err) {  return done(err); }
             var server = self.collections.User.getServer();
-            assert.equal(server.transport.pool.max, 10);
+            assert.equal(server.transport.pool.max, 2);
             done();
           });
         });
