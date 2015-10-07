@@ -72,7 +72,7 @@ var config = {
   
   connections: {
     myLocalOrient: {
-      adapter: 'orient',
+      adapter: 'sails-orientdb',
       host: 'localhost',
       port: 2424,
       user: 'root',
@@ -92,7 +92,7 @@ var config = {
 #### Connection advanced config example
 ```javascript
     myLocalOrient: {
-      adapter: 'orient',
+      adapter: 'sails-orientdb',
       host: 'localhost',
       port: 2424,
       user: 'root',
